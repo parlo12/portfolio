@@ -14,7 +14,7 @@
                         <a href="#"><i class="fa-brands fa-instagram"></i></a>
                         <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
                     </div>
-                    <a href="#" class="btn">Download CV</a>
+                    <a href="{{ asset('file/Rolf_Louisdor_Marketing_Director.pdf') }}" class="btn" download="Rolf_Louisdor_Marketing_Director.pdf">Download CV</a>
                 </div>
 
                 <div class="home-img">
@@ -45,7 +45,8 @@
                         <b>Creative Problem Solving:</b> Strong ability to develop innovative solutions to overcome challenges and achieve marketing objectives.
                         <b>Event Planning and Execution:</b> Experience organizing and participating in events, exhibitions, and trade shows to promote services and engage with target audiences.
                     </p>
-                    <a href="#" class="btn" id="chatButton">Chat with my AI</a>
+                    <!-- <a href="#" class="btn" id="chatButton">Chat with my AI</a> -->
+                    <a href="{{ asset('file/Rolf_Louisdor_Marketing_Director.pdf') }}" class="btn" download="Rolf_Louisdor_Marketing_Director.pdf">Download CV</a>
                 </div>
             </section>
 
@@ -157,7 +158,14 @@
             <section class="contact" id="contact">
                 <h2 class="heading">Contact <span>Me!</span></h2>
 
-                <form action="#">
+                @if (session('success'))
+                    <div class="alert alert-success">
+                        {{ session('success') }}
+                    </div>
+                @endif
+
+                <form action="{{ route(contact.send)}" method="POST">
+                    @csrf
                     <div class="input-box">
                         <input type="text" placeholder="Full Name">
                         <input type="email" placeholder="Email Address">
