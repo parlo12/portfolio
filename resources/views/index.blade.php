@@ -164,7 +164,7 @@
                     </div>
                 @endif
 
-                <form action="{{ route(contact.send)}" method="POST">
+                <form action="{{ route('contact.send') }}" method="POST">
                     @csrf
                     <div class="input-box">
                         <input type="text" placeholder="Full Name">
