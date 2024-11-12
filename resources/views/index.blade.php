@@ -6,7 +6,7 @@
                 <div class="home-content">
                     <h3>Quick intro</h3>
                     <h1>Rolf Louisdor</h1>
-                    <h3>I've built my carrier as <span class="multiple-text"></span></h3>
+                    <h3>I've built my career as <span class="multiple-text"></span></h3>
                     <p>I've done a lot of Freelancing work ranging from complete lunching new proeduct to new services in Home Improvement space</p>
                     <div class="social-media">
                         <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
