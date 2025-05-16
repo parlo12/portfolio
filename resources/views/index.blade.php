@@ -6,7 +6,7 @@
                 <div class="home-content">
                     <h3>Quick intro</h3>
                     <h1>Rolf Louisdor</h1>
-                    <h3>I've built my career as <span class="multiple-text"></span></h3>
+                    <h3>I'm skilled in the following <span class="multiple-text"></span></h3>
                     <p>I've done a lot of Freelancing work ranging from complete lunching new proeduct to new services in Home Improvement space</p>
                     <div class="social-media">
                         <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
@@ -29,24 +29,23 @@
                 </div>
 
                 <div class="about-content">
-                    <h2 class="heading">About <span>Me</span></h2>
-                    <h3>Director Marketing</h3>
-                    <h3>Skills</h3>
-                    <p>
-                        <b>Strategic Marketing Management:</b> Proven experience in developing and executing comprehensive marketing plans to increase brand awareness and drive growth.<br>
-                        <b>Leadership and Team Management:</b> Strong leadership skills to motivate and guide team members to achieve marketing goals and objectives.
-                        <b>Customer Relationship Management:</b> Ability to build and maintain strong relationships with customers to drive loyalty and retention.
-
-                        <b>Communication and Networking:</b> Excellent communication, networking, and relationship-building skills to interact effectively with various stakeholders, clients, and team members.
-                        <b>Market Analysis:</b> Ability to monitor market trends and competitors to identify opportunities for growth and improvement.
-                        <b>Project Management:</b> Skilled in coordinating and managing projects, including budget management, timeline adherence, and resource allocation.
-                        <b>Digital Marketing: </b> Proficient in utilizing digital marketing strategies, including social media, content marketing, and SEO to enhance online presence and engagement.
-                        <b>Data Analysis:</b> Experienced in tracking and analyzing marketing data to measure success, identify trends, and make data-driven decisions.
-                        <b>Creative Problem Solving:</b> Strong ability to develop innovative solutions to overcome challenges and achieve marketing objectives.
-                        <b>Event Planning and Execution:</b> Experience organizing and participating in events, exhibitions, and trade shows to promote services and engage with target audiences.
-                    </p>
+                <h2 class="heading">About <span>Me</span></h2>
+                <h3>Backend Software Engineer</h3>
+                <h3>Skills</h3>
+                <p>
+                    <b>Backend Development:</b> Proficient in PHP, Laravel MVC framework, Node.js, Go, and Python for building scalable backend systems and microservices.<br>
+                    <b>Database Management:</b> Skilled in MySQL, PostgreSQL, MongoDB, and SQLite with experience designing and optimizing relational and NoSQL data models.<br>
+                    <b>API Design & Integration:</b> Experienced in building RESTful APIs, WebSocket APIs, and MQTT-based services for real-time and distributed systems.<br>
+                    <b>CI/CD & DevOps:</b> Hands-on experience building CI/CD pipelines and managing deployments using Laravel Forge, Git, and cloud services like Google Cloud SQL and MongoDB Atlas.<br>
+                    <b>Machine Learning & Data Processing:</b> Implemented ML models in Python for data analysis and built scraping tools for data acquisition and processing.<br>
+                    <b>Mobile App Development:</b> Built Android applications using Kotlin and cross-platform apps using Flutter.<br>
+                    <b>Front-End Familiarity:</b> Knowledgeable in HTML5, CSS, Bootstrap, Tailwind CSS, and JavaScript frameworks like React.js for front-end integration.<br>
+                    <b>Project Experience:</b> Developed CRM systems, internal tools, and production-grade websites using Laravel, WordPress, Stripe, and Authorized.net.<br>
+                    <b>Version Control:</b> Proficient with Git and GitHub for source control, collaboration, and deployment automation.<br>
+                    <b>Cloud Infrastructure:</b> Familiar with Google Cloud Platform, MongoDB Atlas, and deployment of scalable web applications.
+                </p>
                     <!-- <a href="#" class="btn" id="chatButton">Chat with my AI</a> -->
-                    <a href="{{ asset('file/Rolf_Louisdor_Marketing_Director.pdf') }}" class="btn" download="Rolf_Louisdor_Marketing_Director.pdf">Download CV</a>
+                    <a href="{{ asset('file/Resume.pdf') }}" class="btn" download="Rolf_Louisdor_CS.pdf">Download CV</a>
                 </div>
             </section>
 

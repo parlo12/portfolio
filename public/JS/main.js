@@ -52,7 +52,8 @@ ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 /*================================= typed js ===================================*/
 
 const typed = new Typed('.multiple-text', {
-    strings: ['Director, started as a software engineer and quickly moved into marketing, been working in home improvment industry for over 8 years!','Backend Developer', 'Part Frontend Dev'],
+    strings: ['Software engineer', 'System architec', 'Skilled in Laravel', 'Skilled in React', 'Skilled in Node.js','skilled in Go', 'skilled in Python'],
+    typeSpeed: 100,
     typeSpeed: 70,
     backSpeed: 70,
     backDelay: 1000,
