@@ -14,7 +14,7 @@
                         <a href="#"><i class="fa-brands fa-instagram"></i></a>
                         <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
                     </div>
-                    <a href="{{ asset('file/Rolf_Louisdor_Marketing_Director.pdf') }}" class="btn" download="Rolf_Louisdor_Marketing_Director.pdf">Download CV</a>
+                    <a href="{{ asset('file/Resume.pdf') }}" class="btn" download="Rolf_Louisdor_CS.pdf">Download CV</a>
                 </div>
 
                 <div class="home-img">
