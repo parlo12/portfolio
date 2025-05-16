@@ -52,7 +52,7 @@ ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 /*================================= typed js ===================================*/
 
 const typed = new Typed('.multiple-text', {
-    strings: ['Marketing Director, started as a software engineer and quickly moved into marketing, been working in home improvment industry for over 8 years!','Backend Developer', 'Part Frontend Dev'],
+    strings: ['Director, started as a software engineer and quickly moved into marketing, been working in home improvment industry for over 8 years!','Backend Developer', 'Part Frontend Dev'],
     typeSpeed: 70,
     backSpeed: 70,
     backDelay: 1000,
